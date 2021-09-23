@@ -45,7 +45,8 @@ tags:
 打车去到四川美术学院，疫情期间不能进校，于是打卡学校旁边的涂鸦街~<br/>
 可以买颜料在整条街涂鸦~
 :::
-<img src="http://qny.panhuaqing.cn/IMG_20210503_153021_mix01.jpg" alt="mixureSecure">
+<!-- <img src="http://qny.panhuaqing.cn/IMG_20210503_153021_mix01.jpg" alt="mixureSecure"> -->
+<img src="http://qny.panhuaqing.cn/IMG_20210503_153026.jpg" alt="mixureSecure">
 
 :::tip
 ### 磁器口
@@ -74,5 +75,6 @@ tags:
 ### 洪崖洞
 :::
 <img src="http://qny.panhuaqing.cn/IMG_20210504_184933_mix02.jpg" alt="mixureSecure">
+<img src="http://qny.panhuaqing.cn/IMG_20210504_200751_mix01.jpg" alt="mixureSecure">
 
 

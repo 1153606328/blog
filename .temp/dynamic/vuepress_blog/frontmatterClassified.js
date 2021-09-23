@@ -8,19 +8,19 @@ export default {
       "scope": "tags",
       "path": "/tag/游记/",
       "pageKeys": [
-        "v-065d8384",
-        "v-1100c6fe",
-        "v-1a8d0c44",
-        "v-655ed69e",
-        "v-7856aac4",
-        "v-5b47123e",
-        "v-d6204944",
-        "v-2c6242fe",
-        "v-05051884",
-        "v-14ae999e",
-        "v-0a96d53e",
-        "v-73246d9e",
-        "v-489bf404"
+        "v-21db2a0f",
+        "v-0daba14f",
+        "v-0393dcef",
+        "v-763939af",
+        "v-56a1e4a2",
+        "v-3d3ca60f",
+        "v-b46b8322",
+        "v-6c21754f",
+        "v-2588fcaf",
+        "v-0e57d6cf",
+        "v-26e72de2",
+        "v-f8025ea2",
+        "v-1b71384f"
       ]
     },
     "uniApp": {
@@ -28,7 +28,7 @@ export default {
       "scope": "tags",
       "path": "/tag/uniApp/",
       "pageKeys": [
-        "v-d683676c"
+        "v-60483f9b"
       ]
     },
     "vue": {
@@ -36,10 +36,10 @@ export default {
       "scope": "tags",
       "path": "/tag/vue/",
       "pageKeys": [
-        "v-b5263670",
-        "v-22899880",
-        "v-4b10488c",
-        "v-331bb432"
+        "v-736bdc51",
+        "v-3163b919",
+        "v-666eb00b",
+        "v-8a07b27a"
       ]
     },
     "VuePress": {
@@ -47,7 +47,7 @@ export default {
       "scope": "tags",
       "path": "/tag/VuePress/",
       "pageKeys": [
-        "v-511465ca"
+        "v-62a2781b"
       ]
     }
   },
@@ -57,19 +57,19 @@ export default {
       "scope": "categories",
       "path": "/categories/旅程/",
       "pageKeys": [
-        "v-065d8384",
-        "v-1100c6fe",
-        "v-1a8d0c44",
-        "v-655ed69e",
-        "v-7856aac4",
-        "v-5b47123e",
-        "v-d6204944",
-        "v-2c6242fe",
-        "v-05051884",
-        "v-14ae999e",
-        "v-0a96d53e",
-        "v-73246d9e",
-        "v-489bf404"
+        "v-21db2a0f",
+        "v-0daba14f",
+        "v-0393dcef",
+        "v-763939af",
+        "v-56a1e4a2",
+        "v-3d3ca60f",
+        "v-b46b8322",
+        "v-6c21754f",
+        "v-2588fcaf",
+        "v-0e57d6cf",
+        "v-26e72de2",
+        "v-f8025ea2",
+        "v-1b71384f"
       ]
     },
     "前端": {
@@ -77,12 +77,12 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-d683676c",
-        "v-b5263670",
-        "v-22899880",
-        "v-4b10488c",
-        "v-331bb432",
-        "v-511465ca"
+        "v-60483f9b",
+        "v-736bdc51",
+        "v-3163b919",
+        "v-666eb00b",
+        "v-62a2781b",
+        "v-8a07b27a"
       ]
     }
   },

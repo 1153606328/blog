@@ -23,21 +23,37 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "越南",
+      "title": "Home",
       "frontmatter": {
-        "title": "越南",
-        "date": "2018-10-27T00:00:00.000Z",
-        "categories": [
-          "旅程"
-        ],
-        "tags": [
-          "游记"
+        "home": true,
+        "heroText": "多出去走走看看，才有资格拥有诗和远方",
+        "tagline": "Go out and have a look, in order to be qualified to have poetry and distance.",
+        "bgImageStyle": {
+          "height": "450px"
+        },
+        "isShowTitleInHome": false,
+        "actionText": "Guide",
+        "actionLink": "/views/other/guide",
+        "features": [
+          {
+            "title": "Yesterday",
+            "details": "开发一款看着开心、写着顺手的 vuepress 博客主题"
+          },
+          {
+            "title": "Today",
+            "details": "希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上"
+          },
+          {
+            "title": "Tomorrow",
+            "details": "希望更多的爱好者能够参与进来，帮助这个主题更好的成长"
+          }
         ]
       },
-      "regularPath": "/blogs/journey/2018/note01.html",
-      "relativePath": "blogs/journey/2018/note01.md",
-      "key": "v-065d8384",
-      "path": "/blogs/journey/2018/note01.html"
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-1f962cbf",
+      "path": "/",
+      "lastUpdated": "9/14/2021, 2:11:18 PM"
     },
     {
       "title": "桂林-阳朔",
@@ -53,8 +69,34 @@ export const siteData = {
       },
       "regularPath": "/blogs/journey/2016/note01.html",
       "relativePath": "blogs/journey/2016/note01.md",
-      "key": "v-1100c6fe",
-      "path": "/blogs/journey/2016/note01.html"
+      "key": "v-21db2a0f",
+      "path": "/blogs/journey/2016/note01.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "越南",
+      "frontmatter": {
+        "title": "越南",
+        "date": "2018-10-27T00:00:00.000Z",
+        "categories": [
+          "旅程"
+        ],
+        "tags": [
+          "游记"
+        ]
+      },
+      "regularPath": "/blogs/journey/2018/note01.html",
+      "relativePath": "blogs/journey/2018/note01.md",
+      "key": "v-0daba14f",
+      "path": "/blogs/journey/2018/note01.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "必备物品",
+          "slug": "必备物品"
+        }
+      ],
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
     },
     {
       "title": "深圳-人才公园",
@@ -70,8 +112,9 @@ export const siteData = {
       },
       "regularPath": "/blogs/journey/2019/note01.html",
       "relativePath": "blogs/journey/2019/note01.md",
-      "key": "v-1a8d0c44",
-      "path": "/blogs/journey/2019/note01.html"
+      "key": "v-0393dcef",
+      "path": "/blogs/journey/2019/note01.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
     },
     {
       "title": "北海-涠洲岛",
@@ -87,8 +130,9 @@ export const siteData = {
       },
       "regularPath": "/blogs/journey/2018/note02.html",
       "relativePath": "blogs/journey/2018/note02.md",
-      "key": "v-655ed69e",
-      "path": "/blogs/journey/2018/note02.html"
+      "key": "v-763939af",
+      "path": "/blogs/journey/2018/note02.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
     },
     {
       "title": "防城港-白浪滩",
@@ -104,42 +148,9 @@ export const siteData = {
       },
       "regularPath": "/blogs/journey/2019/note03.html",
       "relativePath": "blogs/journey/2019/note03.md",
-      "key": "v-7856aac4",
-      "path": "/blogs/journey/2019/note03.html"
-    },
-    {
-      "title": "广州-长隆野生动物园",
-      "frontmatter": {
-        "title": "广州-长隆野生动物园",
-        "date": "2019-10-04T00:00:00.000Z",
-        "categories": [
-          "旅程"
-        ],
-        "tags": [
-          "游记"
-        ]
-      },
-      "regularPath": "/blogs/journey/2019/note02.html",
-      "relativePath": "blogs/journey/2019/note02.md",
-      "key": "v-5b47123e",
-      "path": "/blogs/journey/2019/note02.html"
-    },
-    {
-      "title": "南宁-那考河湿地公园",
-      "frontmatter": {
-        "title": "南宁-那考河湿地公园",
-        "date": "2019-05-01T00:00:00.000Z",
-        "categories": [
-          "旅程"
-        ],
-        "tags": [
-          "游记"
-        ]
-      },
-      "regularPath": "/blogs/journey/2019/note05.html",
-      "relativePath": "blogs/journey/2019/note05.md",
-      "key": "v-d6204944",
-      "path": "/blogs/journey/2019/note05.html"
+      "key": "v-56a1e4a2",
+      "path": "/blogs/journey/2019/note03.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
     },
     {
       "title": "北海-涠洲岛",
@@ -155,14 +166,15 @@ export const siteData = {
       },
       "regularPath": "/blogs/journey/2019/note04.html",
       "relativePath": "blogs/journey/2019/note04.md",
-      "key": "v-2c6242fe",
-      "path": "/blogs/journey/2019/note04.html"
+      "key": "v-3d3ca60f",
+      "path": "/blogs/journey/2019/note04.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
     },
     {
-      "title": "南宁-青秀山",
+      "title": "南宁-那考河湿地公园",
       "frontmatter": {
-        "title": "南宁-青秀山",
-        "date": "2019-01-05T00:00:00.000Z",
+        "title": "南宁-那考河湿地公园",
+        "date": "2019-05-01T00:00:00.000Z",
         "categories": [
           "旅程"
         ],
@@ -170,10 +182,29 @@ export const siteData = {
           "游记"
         ]
       },
-      "regularPath": "/blogs/journey/2019/note06.html",
-      "relativePath": "blogs/journey/2019/note06.md",
-      "key": "v-05051884",
-      "path": "/blogs/journey/2019/note06.html"
+      "regularPath": "/blogs/journey/2019/note05.html",
+      "relativePath": "blogs/journey/2019/note05.md",
+      "key": "v-b46b8322",
+      "path": "/blogs/journey/2019/note05.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "广州-长隆野生动物园",
+      "frontmatter": {
+        "title": "广州-长隆野生动物园",
+        "date": "2019-10-04T00:00:00.000Z",
+        "categories": [
+          "旅程"
+        ],
+        "tags": [
+          "游记"
+        ]
+      },
+      "regularPath": "/blogs/journey/2019/note02.html",
+      "relativePath": "blogs/journey/2019/note02.md",
+      "key": "v-6c21754f",
+      "path": "/blogs/journey/2019/note02.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
     },
     {
       "title": "南宁-园博园",
@@ -189,8 +220,288 @@ export const siteData = {
       },
       "regularPath": "/blogs/journey/2020/note01.html",
       "relativePath": "blogs/journey/2020/note01.md",
-      "key": "v-14ae999e",
-      "path": "/blogs/journey/2020/note01.html"
+      "key": "v-2588fcaf",
+      "path": "/blogs/journey/2020/note01.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "南宁-青秀山",
+      "frontmatter": {
+        "title": "南宁-青秀山",
+        "date": "2019-01-05T00:00:00.000Z",
+        "categories": [
+          "旅程"
+        ],
+        "tags": [
+          "游记"
+        ]
+      },
+      "regularPath": "/blogs/journey/2019/note06.html",
+      "relativePath": "blogs/journey/2019/note06.md",
+      "key": "v-0e57d6cf",
+      "path": "/blogs/journey/2019/note06.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "南宁-梦想小镇",
+      "frontmatter": {
+        "title": "南宁-梦想小镇",
+        "date": "2021-01-02T00:00:00.000Z",
+        "categories": [
+          "旅程"
+        ],
+        "tags": [
+          "游记"
+        ]
+      },
+      "regularPath": "/blogs/journey/2021/note03.html",
+      "relativePath": "blogs/journey/2021/note03.md",
+      "key": "v-26e72de2",
+      "path": "/blogs/journey/2021/note03.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "足迹总览",
+      "frontmatter": {
+        "title": "足迹总览",
+        "date": "2021-09-4",
+        "publish": false
+      },
+      "regularPath": "/blogs/journey/",
+      "relativePath": "blogs/journey/README.md",
+      "key": "v-f503501a",
+      "path": "/blogs/journey/",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "南宁-花花大世界",
+      "frontmatter": {
+        "title": "南宁-花花大世界",
+        "date": "2021-02-13T00:00:00.000Z",
+        "categories": [
+          "旅程"
+        ],
+        "tags": [
+          "游记"
+        ]
+      },
+      "regularPath": "/blogs/journey/2021/note02.html",
+      "relativePath": "blogs/journey/2021/note02.md",
+      "key": "v-f8025ea2",
+      "path": "/blogs/journey/2021/note02.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "狗子专区",
+      "frontmatter": {
+        "title": "狗子专区",
+        "date": "2021-09-2",
+        "publish": false
+      },
+      "regularPath": "/blogs/life/Pet.html",
+      "relativePath": "blogs/life/Pet.md",
+      "key": "v-31867018",
+      "path": "/blogs/life/Pet.html"
+    },
+    {
+      "title": "vlog总览",
+      "frontmatter": {
+        "title": "vlog总览",
+        "date": "2021-09-2",
+        "publish": false
+      },
+      "regularPath": "/blogs/life/Vlog.html",
+      "relativePath": "blogs/life/Vlog.md",
+      "key": "v-48e51d88",
+      "path": "/blogs/life/Vlog.html",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "前言",
+      "frontmatter": {
+        "title": "前言",
+        "date": "2021-09-1",
+        "sticky": 1
+      },
+      "regularPath": "/docs/",
+      "relativePath": "docs/README.md",
+      "key": "v-8a54937c",
+      "path": "/docs/",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "UniApp测试文章",
+      "frontmatter": {
+        "title": "UniApp测试文章",
+        "date": "2020-09-2",
+        "publish": false,
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "uniApp"
+        ]
+      },
+      "regularPath": "/docs/notes/uniapp/Uniapp.html",
+      "relativePath": "docs/notes/uniapp/Uniapp.md",
+      "key": "v-60483f9b",
+      "path": "/docs/notes/uniapp/Uniapp.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "Uniapp使用",
+          "slug": "uniapp使用"
+        }
+      ],
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "前言",
+      "frontmatter": {
+        "title": "前言",
+        "date": "2021-09-1",
+        "publish": false
+      },
+      "regularPath": "/docs/notes/",
+      "relativePath": "docs/notes/README.md",
+      "key": "v-0d5f5af5",
+      "path": "/docs/notes/",
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "vue cli4 使用笔记",
+      "frontmatter": {
+        "title": "vue cli4 使用笔记",
+        "date": "2020-09-2",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "vue"
+        ]
+      },
+      "regularPath": "/docs/notes/vue/VueCli4.html",
+      "relativePath": "docs/notes/vue/VueCli4.md",
+      "key": "v-736bdc51",
+      "path": "/docs/notes/vue/VueCli4.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、安装",
+          "slug": "一、安装"
+        },
+        {
+          "level": 2,
+          "title": "目录结构",
+          "slug": "目录结构"
+        },
+        {
+          "level": 2,
+          "title": "二、运行",
+          "slug": "二、运行"
+        }
+      ],
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "VuePress开发过程遇到的坑",
+      "frontmatter": {
+        "title": "VuePress开发过程遇到的坑",
+        "date": "2020-09-3",
+        "publish": false
+      },
+      "regularPath": "/docs/notes/vuepress/FAQ.html",
+      "relativePath": "docs/notes/vuepress/FAQ.md",
+      "key": "v-31afcc49",
+      "path": "/docs/notes/vuepress/FAQ.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1、在vuepress 中使用vue组件，预编译样式less/sass 报错",
+          "slug": "_1、在vuepress-中使用vue组件-预编译样式less-sass-报错"
+        },
+        {
+          "level": 3,
+          "title": "2、在config.js中配置插件无效",
+          "slug": "_2、在config-js中配置插件无效"
+        }
+      ],
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "Axios使用笔记",
+      "frontmatter": {
+        "title": "Axios使用笔记",
+        "date": "2020-09-2",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "vue"
+        ]
+      },
+      "regularPath": "/docs/notes/vue/Axios.html",
+      "relativePath": "docs/notes/vue/Axios.md",
+      "key": "v-3163b919",
+      "path": "/docs/notes/vue/Axios.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1、安装",
+          "slug": "_1、安装"
+        },
+        {
+          "level": 3,
+          "title": "2、导入",
+          "slug": "_2、导入"
+        },
+        {
+          "level": 3,
+          "title": "3、使用",
+          "slug": "_3、使用"
+        },
+        {
+          "level": 3,
+          "title": "4、封装Axios",
+          "slug": "_4、封装axios"
+        },
+        {
+          "level": 3,
+          "title": "5、代理设置",
+          "slug": "_5、代理设置"
+        }
+      ],
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "vue 自定义指令",
+      "frontmatter": {
+        "title": "vue 自定义指令",
+        "date": "2021-09-8",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "vue"
+        ]
+      },
+      "regularPath": "/docs/notes/vue/Vue_V.html",
+      "relativePath": "docs/notes/vue/Vue_V.md",
+      "key": "v-666eb00b",
+      "path": "/docs/notes/vue/Vue_V.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "全局注册自定义的指令",
+          "slug": "全局注册自定义的指令"
+        },
+        {
+          "level": 3,
+          "title": "在vue中使用指令",
+          "slug": "在vue中使用指令"
+        }
+      ],
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
     },
     {
       "title": "四川-重庆",
@@ -206,7 +517,7 @@ export const siteData = {
       },
       "regularPath": "/blogs/journey/2021/note01.html",
       "relativePath": "blogs/journey/2021/note01.md",
-      "key": "v-0a96d53e",
+      "key": "v-1b71384f",
       "path": "/blogs/journey/2021/note01.html",
       "headers": [
         {
@@ -269,279 +580,8 @@ export const siteData = {
           "title": "洪崖洞",
           "slug": "洪崖洞"
         }
-      ]
-    },
-    {
-      "title": "南宁-花花大世界",
-      "frontmatter": {
-        "title": "南宁-花花大世界",
-        "date": "2021-02-13T00:00:00.000Z",
-        "categories": [
-          "旅程"
-        ],
-        "tags": [
-          "游记"
-        ]
-      },
-      "regularPath": "/blogs/journey/2021/note02.html",
-      "relativePath": "blogs/journey/2021/note02.md",
-      "key": "v-73246d9e",
-      "path": "/blogs/journey/2021/note02.html"
-    },
-    {
-      "title": "南宁-梦想小镇",
-      "frontmatter": {
-        "title": "南宁-梦想小镇",
-        "date": "2021-01-02T00:00:00.000Z",
-        "categories": [
-          "旅程"
-        ],
-        "tags": [
-          "游记"
-        ]
-      },
-      "regularPath": "/blogs/journey/2021/note03.html",
-      "relativePath": "blogs/journey/2021/note03.md",
-      "key": "v-489bf404",
-      "path": "/blogs/journey/2021/note03.html"
-    },
-    {
-      "title": "足迹总览",
-      "frontmatter": {
-        "title": "足迹总览",
-        "date": "2021-09-4",
-        "publish": false
-      },
-      "regularPath": "/blogs/journey/",
-      "relativePath": "blogs/journey/README.md",
-      "key": "v-0a9ba3a4",
-      "path": "/blogs/journey/"
-    },
-    {
-      "title": "vlog",
-      "frontmatter": {
-        "title": "vlog",
-        "date": "2021-09-2",
-        "publish": false
-      },
-      "regularPath": "/blogs/life/Vlog.html",
-      "relativePath": "blogs/life/Vlog.md",
-      "key": "v-0bccc8aa",
-      "path": "/blogs/life/Vlog.html"
-    },
-    {
-      "title": "前言",
-      "frontmatter": {
-        "title": "前言",
-        "date": "2021-09-1",
-        "sticky": 1
-      },
-      "regularPath": "/docs/",
-      "relativePath": "docs/README.md",
-      "key": "v-c577879a",
-      "path": "/docs/"
-    },
-    {
-      "title": "前言",
-      "frontmatter": {
-        "title": "前言",
-        "date": "2021-09-1",
-        "publish": false
-      },
-      "regularPath": "/docs/notes/",
-      "relativePath": "docs/notes/README.md",
-      "key": "v-56877f66",
-      "path": "/docs/notes/"
-    },
-    {
-      "title": "UniApp测试文章",
-      "frontmatter": {
-        "title": "UniApp测试文章",
-        "date": "2020-09-2",
-        "publish": false,
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "uniApp"
-        ]
-      },
-      "regularPath": "/docs/notes/uniapp/Uniapp.html",
-      "relativePath": "docs/notes/uniapp/Uniapp.md",
-      "key": "v-d683676c",
-      "path": "/docs/notes/uniapp/Uniapp.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "Uniapp使用",
-          "slug": "uniapp使用"
-        }
-      ]
-    },
-    {
-      "title": "Axios使用笔记",
-      "frontmatter": {
-        "title": "Axios使用笔记",
-        "date": "2020-09-2",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "vue"
-        ]
-      },
-      "regularPath": "/docs/notes/vue/Axios.html",
-      "relativePath": "docs/notes/vue/Axios.md",
-      "key": "v-b5263670",
-      "path": "/docs/notes/vue/Axios.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "1、安装",
-          "slug": "_1、安装"
-        },
-        {
-          "level": 3,
-          "title": "2、导入",
-          "slug": "_2、导入"
-        },
-        {
-          "level": 3,
-          "title": "3、使用",
-          "slug": "_3、使用"
-        },
-        {
-          "level": 3,
-          "title": "4、封装Axios",
-          "slug": "_4、封装axios"
-        },
-        {
-          "level": 3,
-          "title": "5、代理设置",
-          "slug": "_5、代理设置"
-        }
-      ]
-    },
-    {
-      "title": "vue cli4 使用笔记",
-      "frontmatter": {
-        "title": "vue cli4 使用笔记",
-        "date": "2020-09-2",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "vue"
-        ]
-      },
-      "regularPath": "/docs/notes/vue/VueCli4.html",
-      "relativePath": "docs/notes/vue/VueCli4.md",
-      "key": "v-22899880",
-      "path": "/docs/notes/vue/VueCli4.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、安装",
-          "slug": "一、安装"
-        },
-        {
-          "level": 2,
-          "title": "目录结构",
-          "slug": "目录结构"
-        },
-        {
-          "level": 2,
-          "title": "二、运行",
-          "slug": "二、运行"
-        }
-      ]
-    },
-    {
-      "title": "vue 自定义指令",
-      "frontmatter": {
-        "title": "vue 自定义指令",
-        "date": "2021-09-8",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "vue"
-        ]
-      },
-      "regularPath": "/docs/notes/vue/Vue_V.html",
-      "relativePath": "docs/notes/vue/Vue_V.md",
-      "key": "v-4b10488c",
-      "path": "/docs/notes/vue/Vue_V.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "全局注册自定义的指令",
-          "slug": "全局注册自定义的指令"
-        },
-        {
-          "level": 3,
-          "title": "在vue中使用指令",
-          "slug": "在vue中使用指令"
-        }
-      ]
-    },
-    {
-      "title": "vuex 中的getters使用方法",
-      "frontmatter": {
-        "title": "vuex 中的getters使用方法",
-        "date": "2021-09-8",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "vue"
-        ]
-      },
-      "regularPath": "/docs/notes/vue/Vuex_getters.html",
-      "relativePath": "docs/notes/vue/Vuex_getters.md",
-      "key": "v-331bb432",
-      "path": "/docs/notes/vue/Vuex_getters.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "什么是getters?",
-          "slug": "什么是getters"
-        },
-        {
-          "level": 3,
-          "title": "如何使用getters？",
-          "slug": "如何使用getters"
-        },
-        {
-          "level": 3,
-          "title": "在js文件中使用",
-          "slug": "在js文件中使用"
-        }
-      ]
-    },
-    {
-      "title": "VuePress开发过程遇到的坑",
-      "frontmatter": {
-        "title": "VuePress开发过程遇到的坑",
-        "date": "2020-09-3",
-        "publish": false
-      },
-      "regularPath": "/docs/notes/vuepress/FAQ.html",
-      "relativePath": "docs/notes/vuepress/FAQ.md",
-      "key": "v-df618e90",
-      "path": "/docs/notes/vuepress/FAQ.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "1、在vuepress 中使用vue组件，预编译样式less/sass 报错",
-          "slug": "_1、在vuepress-中使用vue组件-预编译样式less-sass-报错"
-        },
-        {
-          "level": 3,
-          "title": "2、在config.js中配置插件无效",
-          "slug": "_2、在config-js中配置插件无效"
-        }
-      ]
+      ],
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
     },
     {
       "title": "VuePress博客之reco主题使用",
@@ -557,7 +597,7 @@ export const siteData = {
       },
       "regularPath": "/docs/notes/vuepress/VuePress.html",
       "relativePath": "docs/notes/vuepress/VuePress.md",
-      "key": "v-511465ca",
+      "key": "v-62a2781b",
       "path": "/docs/notes/vuepress/VuePress.html",
       "headers": [
         {
@@ -580,7 +620,43 @@ export const siteData = {
           "title": "插件",
           "slug": "插件"
         }
-      ]
+      ],
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
+    },
+    {
+      "title": "vuex 中的getters使用方法",
+      "frontmatter": {
+        "title": "vuex 中的getters使用方法",
+        "date": "2021-09-8",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "vue"
+        ]
+      },
+      "regularPath": "/docs/notes/vue/Vuex_getters.html",
+      "relativePath": "docs/notes/vue/Vuex_getters.md",
+      "key": "v-8a07b27a",
+      "path": "/docs/notes/vue/Vuex_getters.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "什么是getters?",
+          "slug": "什么是getters"
+        },
+        {
+          "level": 3,
+          "title": "如何使用getters？",
+          "slug": "如何使用getters"
+        },
+        {
+          "level": 3,
+          "title": "在js文件中使用",
+          "slug": "在js文件中使用"
+        }
+      ],
+      "lastUpdated": "9/14/2021, 2:25:55 PM"
     },
     {
       "frontmatter": {
@@ -749,6 +825,13 @@ export const siteData = {
           "children": [
             "/blogs/life/Vlog"
           ]
+        },
+        {
+          "title": "狗子专区",
+          "collapsable": true,
+          "children": [
+            "/blogs/life/Pet"
+          ]
         }
       ],
       "/blogs/journey/": [
@@ -820,7 +903,7 @@ export const siteData = {
     "author": "",
     "authorAvatar": "/avatar.jpg",
     "record": "桂ICP备2020009713号",
-    "startYear": "2016",
+    "startYear": "2021",
     "valineConfig": {
       "appId": "vppnyczaSSTaj4iFn5Y8kY20-9Nh9j0Va",
       "appKey": "3Xk2TOkMx6ltQyUBSd1hyttp"

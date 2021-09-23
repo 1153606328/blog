@@ -1,4 +1,5 @@
 module.exports = {
+	// "base": "/",
   "title": "Pan Blog",
   "description": "愿世界温柔以待",
   "dest": "public",//博客部署时输出的文件夹
@@ -94,6 +95,13 @@ module.exports = {
 		      children: [
 		          '/blogs/life/Vlog',
 		      ]
+		  },
+		  {
+		      title: '狗子专区',
+		      collapsable: true,
+		      children: [
+		          '/blogs/life/Pet',
+		      ]
 		  }
 		  ],
 		//旅程
@@ -187,7 +195,7 @@ module.exports = {
 	// 备案号
     "record": "桂ICP备2020009713号",
 	// 项目开始时间
-    "startYear": "2016",
+    "startYear": "2021",
 	//评论插件
 	"valineConfig": {
 	     "appId": 'vppnyczaSSTaj4iFn5Y8kY20-9Nh9j0Va',// your appId
@@ -203,7 +211,28 @@ module.exports = {
   	        shape: ['circle'],  // shape of the particle, default: 'star'
   	        zIndex: 999999999           // z-index property of the canvas, default: 999999999
   	      }
-  	    ],
+  	],
+	[		//图片缩放插件
+	      'vuepress-plugin-medium-zoom',//npm install -D vuepress-plugin-medium-zoom
+	      {
+	        selector: '.my-wrapper .my-img',
+	        delay: 1000,
+	        options: {
+	          margin: 24,
+	          background: '#BADA55',
+	          scrollOffset: 0,
+	        },
+	      },
+	    ],
+	// [
+	//       //彩带背景 先安装在配置， npm install vuepress-plugin-ribbon --save
+	//       "ribbon",
+	//       {
+	//         size: 90,     // width of the ribbon, default: 90
+	//         opacity: 0.8, // opacity of the ribbon, default: 0.3
+	//         zIndex: -1    // z-index property of the background, default: -1
+	//       }
+	// ],
   ],
   "markdown": {
     "lineNumbers": true

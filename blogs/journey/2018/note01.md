@@ -8,6 +8,12 @@ tags:
 ---
 
 :::tip
-越南
+越南自由行
 :::
 [[toc]]
+## 必备物品
+1. 身份证
+2. 护照
+3. 越南盾/少量人民币
+
+<img src="http://qny.panhuaqing.cn/IMG_20181027_210138.jpg" alt="mixureSecure">
